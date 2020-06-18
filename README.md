@@ -2,7 +2,7 @@
 
 ## Follow Steps:
 
-# Install all dependencies
+### Install all dependencies
 
 ```
 npm install
