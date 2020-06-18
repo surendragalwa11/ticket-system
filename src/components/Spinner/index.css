@@ -1,0 +1,25 @@
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spinner-header {
+    color: #6cc8ff;
+    margin-bottom: 3rem;
+}
+
+.logo {
+    cursor: pointer;
+    height: 40vmin;
+}
+
+.spinner-footer {
+    margin-top: 2rem;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #efe289;
+    color: #e09a30;
+    font-size: 1rem;
+}

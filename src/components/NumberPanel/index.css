@@ -1,0 +1,52 @@
+.number-panel {
+    background: ghostwhite;
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+}
+
+.preview-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.25rem;
+    padding-right: 10px;
+    border: 0.25px solid #b6b6ca;
+}
+
+.number-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 0.25px solid #b6b6ca;
+}
+
+.number-section .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 0.25px solid #b6b6ca;
+    cursor: pointer;
+}
+
+.number-section .grid-item:hover{
+    background: #ececec;
+}
+
+.no-number-text {
+    color: #bb925b;
+    border: 1px solid #cc9e1c;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ececec;
+    cursor: pointer;
+}
+
+.footer:hover{
+    background: ghostwhite;    
+}

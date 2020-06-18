@@ -1,0 +1,37 @@
+.ticket-entry-page {
+    overflow: auto;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    background-color: #fdfdfd;
+}
+
+.create-ticket-section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    box-shadow: 9px 8px 15px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 800px) {
+    .create-ticket-section {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: none;
+        box-shadow: 9px 8px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .ticket-entry-page {
+        min-height: 800px;
+    }
+}
+
+
+
+.number-panel-container{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+}
+
+.view-ticket-container {
+    overflow: auto;
+}
